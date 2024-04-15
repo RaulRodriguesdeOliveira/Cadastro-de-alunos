@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Tela de Opções</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <div id="form">
+      <div id="opcoes">
+        <h3>Escolha uma das opções abaixo:</h3>
+        <p>1.Cadastrar Alunos.</p>
+        <p>2.Relatório de Alunos em ordem crescente por Nome.</p>
+        <p>3.Relatório de Alunos em ordem decrescente por RA.</p>
+        <p>
+          4.Relatório de Alunos em ordem crescente por Nome, apenas dos
+          Aprovados.
+        </p>
+        <p>5.Encerre a execução do programa.</p>
+        <div id="container">
+          <p>OPÇÃO:</p>
+          <input type="text" id="opcao" size="1" placeholder="0" />
+          <button onclick="Opcoes()" id="confirmar">Confirmar</button>
+        </div>
+      </div>
+    </div>
+    <h1 id="encerrado"></h1>
+    <script src="script.js"></script>
+  </body>
+</html>
